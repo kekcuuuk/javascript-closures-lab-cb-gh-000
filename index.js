@@ -22,10 +22,8 @@ function createAnimal(animalType) {
       deadlyDevice
     };
   };
-
-  sharkWithFrickinLaserbeam;
 };
 
-sharkCreator = createAnimal('Shark');
-sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
-sharkWithFrickinCannon = sharkCreator('Cannon');
+const sharkCreator = createAnimal('Shark');
+const sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
+const sharkWithFrickinCannon = sharkCreator('Cannon');
