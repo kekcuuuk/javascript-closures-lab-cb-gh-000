@@ -23,3 +23,5 @@ function createAnimal(animalType) {
     };
   };
 };
+
+sharkCreator = createAnimal('Shark');
