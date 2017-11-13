@@ -25,5 +25,5 @@ function createAnimal(animalType) {
 };
 
 sharkCreator = createAnimal('Shark');
-sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
-sharkWithFrickinCannon = sharkCreator('Cannon');
+sharkWithFrickinLaserbeam = createAnimal('Shark')('Laserbeam');
+sharkWithFrickinCannon = createAnimal('Shark')('Cannon');
